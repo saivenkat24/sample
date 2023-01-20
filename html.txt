@@ -1,0 +1,661 @@
+Design Pascal's Triangle
+
+
+<!--Please, DO NOT modify this template. Add HTML components with specified constraints, @ the 2 div tags of body. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    div{
+    	text-align:center;
+    	background-color:#C77781;
+    	width:20%;
+    	margin-left:auto;
+    	margin-right:auto;
+    	border-radius:20px;
+    	text-shadow:2px 2px #722f37;
+    	color:#ffffff;
+    }
+    a{
+    	color:#ffffff;
+    	text-shadow:none;
+    }
+    </style>
+</head>
+<body>
+    <div id=" top">
+        <!--fill code here-->
+        <h6> &nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp; </h6>
+        <h5> &nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp; </h5>
+        <h4> &nbsp;&nbsp;1&nbsp;&nbsp;2&nbsp;&nbsp;1&nbsp;&nbsp; </h4>
+        <h3> &nbsp;1&nbsp;&nbsp;3&nbsp;&nbsp;3&nbsp;&nbsp;1&nbsp; </h3>
+        <h2> 1&nbsp;&nbsp;4&nbsp;&nbsp;6&nbsp;&nbsp;4&nbsp;&nbsp;1 </h2>
+
+
+
+
+</div>
+    <div id=" bottom">
+        <!--fill code here-->
+        <p>Pascal's triangle is a triangular array constructed by summing adjacent elements in preceding rows.</p>
+        <a href="#top">Click here to know more..</a>
+        
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table of Contents - TOC
+
+
+
+<!--Please, DO NOT modify this template. Add HTML components with specified constraints, inside the 2 div tags of body. -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Table of Contents</title>
+    
+<style>
+*{
+font-weight:bold;   
+}
+h2{
+text-align:center;
+color:#000000;
+}
+.split {
+height: 100%;
+width: 50%;
+position: fixed;
+overflow: scroll;
+z-index: 1;
+top: 0;
+}
+.left {	
+left: 0;
+background-color: #000000;
+}
+.right {
+right: 0;
+background-color: #808080;
+color:#000000;
+width: 70%;
+}
+a{
+text-decoration:none;
+color:#808080;
+}
+</style>
+
+</head>
+<body>
+    <div class="split left">
+        <!--fill the code-->
+        <ul id="links" style="list-style-type:none;">
+            <li><a href="#overview" id="link1"><p>HTML5 OVERVIEW</p></a></li>
+             <li><a href="#syntax" id="link2"><p>HTML5 SYNTAX</p></a></li>
+              <li><a href="#attributes" id="link3"><p>HTML5 ATTRIBUTES</p></a></li>
+               <li><a href="#events" id="link4"><p>HTML5 EVENTS</p></a></li>
+         <li><a href="#forms" id="link5"><p>HTML5 WEB FORMS 2.0</p></a></li>
+          <li><a href="#advd" id="link6"><p>HTML5 AUDIO & VIDEO</p></a></li>
+        </ul>
+    </div>
+    <div class="split right">
+        <!--fill the code-->
+        <header>
+            <h2>Table of Contents</h2>
+            <ol type=1>
+                <li><p id="overview">HTML5 OVERVIEW</p>
+                <ul>
+                    <li><p>Browser Support</p></li>
+                    <li><p>New Features</p></li>
+                    <li><p>Backward Compatibilty</p></li>
+                </ul>
+                </li>
+            
+                <li><p id="syntax">HTML5 SYNTAX</p>
+                <ul>
+                    <li><p>The DOCTYPE</p></li>
+                    <li><p>Character Encoding</p></li>
+                    <li><p>The script tag</p></li>
+                    <li><p>The link tag</p></li>
+                    <li><p>HTML5 Elements</p></li>
+                    <li><p>HTML5 Attributes</p></li>
+                    <li><p>HTML5 Document</p></li>
+                </ul>
+                </li>
+    
+                <li><p id="attributes">HTML5 ATTRIBUTES</p>
+                <ul>
+                    <li><p>Standard Attributes</p></li>
+                    <li><p>Custom Attributes</p></li>
+                </ul>
+                </li>
+        
+                <li><p id="events">HTML5 EVENTS</p>
+                </li>
+            
+                <li><p id="forms">HTML5 WEB FORMS 2.0</p>
+                <ul>
+                    <li><p>The input element in HTML4</p></li>
+                    <li><p>The input element in HTML5</p></li>
+                    <li><p>The output element</p></li>
+                    <li><p>The placeholder attribute</p></li>
+                    <li><p>The autofocus attribute</p></li>
+                    <li><p>The required attribute</p></li>
+                </ul>
+                </li>
+            
+                <li><p id="advd">HTML5 AUDIO & VIDEO</p>
+                <ul>
+                    <li><p>Embedding Video</p></li>
+                    <li><p>Video Attribute Specification</p></li>
+                    <li><p>Embedding Audio</p></li>
+                    <li><p>Audio Attribute Specification</p></li>
+                    <li><p>Handling Media Events</p></li>
+                    <li><p>Configuring Servers for Media Type</p></li>
+                </ul>
+                </li>
+            </ol>
+        </header>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+Ticket Cost Chart
+
+
+<!--Please, DO NOT modify this template. Add HTML components in body, with specified constraints. -->
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<style>
+		h3,body{
+		color:#800080;
+		}
+		table,td,th{
+		border-width:1px;  
+		border-style:dashed;
+		}
+		table{
+		width:40%;
+		background-color:#D8BFD8;
+		}                                        
+		caption{
+		text-align:left;
+		}
+		th, td{
+		padding:4px;
+		text-align:right; 
+		}
+	</style>
+</head>
+
+<body>
+
+    <h3>Concert Ticket Booking</h3>
+<table>    
+        <caption><strong>Ticket Cost Chart</strong></caption>
+
+    <thead>
+        <tr>
+            <th>Ticket Type</th>
+            <th>Base Price</th>
+            <th>On Booking more than 20 tickets</th>
+            <th>On applying the coupon code[ALEX01A]</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Floor</td>
+            <td>Rs.600</td>
+            <td>30% OFF</td>
+            <td>4% cashback</td>
+        </tr>
+        <tr>
+            <td>Balcony</td>
+            <td>Rs.800</td>
+            <td>20% OFF</td>
+            <td>2% cashback</td>
+        </tr>
+        
+    </tbody>
+    <tfoot>
+        <tr>
+            
+            <td colspan="4"><footer><em>You must pay Rs.200 extra on choosing Refreshment!**</em></footer></td>
+        </tr>
+    </tfoot>
+</table>  
+</body>
+</html>
+			
+
+
+
+Chess Board Designing
+
+<!-- do not make any changes in the template -->
+<!-- fill your code in the areas indicated -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chess Board Designing</title>
+<style>
+		
+table,.black_square,.white_square {
+	display:block;
+	padding:0px;
+	margin:0px;
+}
+
+table {
+	width:400px;
+	height:400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top : 150px;
+	margin-bottom: 200px;
+}
+
+.black_square, .white_square {
+	width:48px;
+	height:48px;
+	float:left;
+}
+
+.black_square {
+	background-color:#000000;
+}
+
+.white_square {
+	background-color:#FFFFFF;
+}
+
+body{
+	background-color:#606060;
+}
+
+caption{
+        font-family: Georgia;
+        text-align: center;
+		font-size:20px;
+		border-radius: 6px;
+		padding:5px;
+		background-color:#ffffff;
+		border: 3px solid #606060;
+}
+
+input[type="button"]{
+		width:96px;
+		height:40px;
+		float:left;
+		border-radius: 6px;
+		padding:5px;
+}
+
+</style>
+</head>
+
+<body>
+<table id="table_caption">
+	<!--fill code here-->
+	<caption id="table_caption">
+	    CHESS_MASTER
+	</caption>
+	<tbody id="table_body">
+	    <tr>
+	        <td id="QR8" class="white_square" title="Black Rook"></td>
+	<td id="QN8" class="black_square" title="Black Knight"></td>
+   <td id="QB8" class="white_square" title="Black Bishop"></td>
+   	<td id="Q8" class="black_square" title="Black Queen"></td>
+   	<td id="K8" class="white_square" title="Black King"></td>
+    <td id="KB8" class="black_square" title="Black Bishop"></td>
+	 <td id="KN8" class="white_square" title="Black Knight"></td>
+	 <td id="KR8" class="black_square" title="Black Rook"></td>
+	    </tr>
+<tr>
+	        <td id="QR7" class="black_square" title="Black Pawn"></td>
+	<td id="QN7" class="white_square" title="Black Pawn"></td>
+   <td id="QB7" class="black_square" title="Black Pawn"></td>
+   	<td id="Q7" class="white_square" title="Black Pawn"></td>
+   	<td id="K7" class="black_square" title="Black Pawn"></td>
+    <td id="KB7" class="white_square" title="Black Pawn"></td>
+	 <td id="KN7" class="black_square" title="Black Pawn"></td>
+	 <td id="KR7" class="white_square" title="Black Pawn"></td>
+	    </tr>
+<tr>
+	        <td id="QR6" class="white_square" ></td>
+	<td id="QN6" class="black_square" ></td>
+   <td id="QB6" class="white_square" ></td>
+   	<td id="Q6" class="black_square" ></td>
+   	<td id="K6" class="white_square" ></td>
+    <td id="KB6" class="black_square" ></td>
+	 <td id="KN6" class="white_square" ></td>
+	 <td id="KR6" class="black_square" ></td>
+	    </tr>
+	    <tr>
+<td id="QR5" class="black_square" ></td>
+	<td id="QN5" class="white_square" ></td>
+   <td id="QB5" class="black_square" ></td>
+   	<td id="Q5" class="white_square" ></td>
+   	<td id="K5" class="black_square" ></td>
+    <td id="KB5" class="white_square" ></td>
+	 <td id="KN5" class="black_square"></td>
+	 <td id="KR5" class="white_square"></td>
+	    </tr>
+<tr>
+	        <td id="QR4" class="white_square" ></td>
+	<td id="QN4" class="black_square" ></td>
+   <td id="QB4" class="white_square" ></td>
+   	<td id="Q4" class="black_square" ></td>
+   	<td id="K4" class="white_square" ></td>
+    <td id="KB4" class="black_square" ></td>
+	 <td id="KN4" class="white_square" ></td>
+	 <td id="KR4" class="black_square" ></td>
+	    </tr>	    
+	    
+	    <tr>
+<td id="QR3" class="black_square" ></td>
+	<td id="QN3" class="white_square" ></td>
+   <td id="QB3" class="black_square" ></td>
+   	<td id="Q3" class="white_square" ></td>
+   	<td id="K3" class="black_square" ></td>
+    <td id="KB3" class="white_square" ></td>
+	 <td id="KN3" class="black_square"></td>
+	 <td id="KR3" class="white_square"></td>
+	    </tr>
+	    
+	    
+<tr>
+	        <td id="QR2" class="white_square" title="White Pawn" ></td>
+	<td id="QN2" class="black_square" title="White Pawn"></td>
+   <td id="QB2" class="white_square" title="White Pawn" ></td>
+   	<td id="Q2" class="black_square" title="White Pawn"></td>
+   	<td id="K2" class="white_square" title="White Pawn"></td>
+    <td id="KB2" class="black_square" title="White Pawn"></td>
+	 <td id="KN2" class="white_square" title="White Pawn"></td>
+	 <td id="KR2" class="black_square" title="White Pawn"></td>
+	    </tr>
+	    
+<tr>
+<td id="QR1" class="black_square" title="White Rook"></td>
+	<td id="QN1" class="white_square" title="White Knight"></td>
+   <td id="QB1" class="black_square" title="White Bishop" ></td>
+   	<td id="Q1" class="white_square" title="White Queen"></td>
+   	<td id="K1" class="black_square" title="White King"></td>
+    <td id="KB1" class="white_square" title="White Bishop"></td>
+	 <td id="KN1" class="black_square" title="White Knight"></td>
+	 <td id="KR1" class="white_square" title="White Rook"></td>
+	    </tr>
+	   
+
+	</tbody>
+	<tfoot id="table_footer">
+	   <tr>
+	       <td>
+	           <input id="setup" type="button" value="SetUpBoard">
+	           <input id="online" type="button" value="PlayOnline">
+	           <input id="computer" type="button" value="PlayComputer">
+	           <input id="withdraw" type="button" value="Withdraw">
+	       </td>
+	   </tr> 
+	</tfoot>
+</table>	
+</body>
+</html>
+
+
+
+
+Forever Event Management
+forever.html
+
+<!-- do not make any changes in the template -->
+<!-- fill your code in the areas indicated -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forever Event Management</title> 
+    <style>
+        *{
+            font-weight: bold;
+        }
+        body{
+        	background-image:url("foreverbg.jpg");
+        	background-size:cover;
+        }
+        table{
+        	width:55%;
+        	height:70%;
+        	margin-left: auto;
+        	margin-right: auto;
+        	border-spacing: 5px;
+        }
+        #foot{
+        	margin-left: 600px;
+        	border-spacing: 5px;	
+        }
+        #submit,#reset{
+        	padding:7px;
+        	font-size:15px;
+        	color: #ffffff;
+        	background-color: #192841;
+        }	
+        img{
+        	margin-left: 500px;
+        	margin-top : 6px;
+        	margin-bottom: 1px;
+        }
+        td{
+        	background-color: #ffffff;
+        }
+        caption, table, td{
+        	border:1px solid #000000;
+        }
+        caption{	
+        	font-size:20px;
+        	font-weight:bold;
+        	color: white;
+        	background-color: #192841;
+        	padding:5px;
+        }
+        input[type="tel"],input[type="email"],input[type="text"],
+        select,textarea, input[type="number"], input[type="url"],
+        input[type="date"]{
+        	width:100%;
+        }
+        input[type="range"]{
+        	width:80%;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function show_value(x)
+        {
+        	document.getElementById("demo").innerHTML="Rs."+x;
+        }
+    </script>
+    <form>
+        <figure id="forever_image">
+        	<img id="image1 " src="forever.jpg"  height="80" width="200" alt="bg_image">an Event Management company
+        </figure>
+        <table>
+            <!--fill code here-->
+            <caption id="table_caption">
+                Vendor Registration Form
+            </caption>
+            <tr>
+               <td > Company name </td>
+               <td><input type="text" , id="cname" autofocus required/>
+               </td>
+            </tr>
+            <tr> <td> Type
+            <td><input type="radio" name="ctype" id="corporation" />
+            <label for="corporation">Corporation</label>
+             <input type="radio" name="ctype" id="partnership" />
+            <label for="partnership">Partnership</label>
+             <input type="radio" name="ctype" id="individual" />
+            <label for="individual">Individual</label>
+             <input type="radio" name="ctype" id="others" />
+            <label for="others">Others</label>
+                
+            </td></tr>
+            <tr>
+                <td >Phone Number</td>
+                <td><input id="phno" type="tel" required pattern="[7-9]{1}[0-9]{9}"/></td>
+            </tr>
+            <tr>
+                <td >
+                    Email ID
+                    <td>
+                        <input id="email" type="email" required/>
+                    
+                </td>
+            </tr>
+            <tr>
+                    <td>Location</td>
+                    <td> <textarea id="address" rows="4" cols="50" required></textarea></td>
+            </tr>
+               <tr>
+                   <td>
+                       Website Address
+                   </td><td>
+                       <input id="link" type="url" required/>
+                   </td>
+               </tr>
+               <tr>
+         <td >TIN No</td><td>
+             <input id=tin type="number" required>
+             
+         </td>  </tr> 
+         <tr>
+             <td >
+                 TIN No Expiry Date
+             </td>
+             <td>
+                 <input id ="expiry" type="date" required />
+             </td>
+         </tr>
+         <tr><td >Average Project Cost</td>
+         <td><input id="cost" type="range"  min="25000" max="500000" step="1000" required onchange="show_value(this.value);" />
+         </td></tr>
+         <tr>
+            <td> Upload Images of Licence,PAN & Facade</td>
+            <td><input  id="profile" type="file" required multiple/></td>
+        
+         </tr>
+        </table><br/>
+        <div id="foot">
+            <!--fill code here-->
+            <input id ="submit" type="submit" value="REGISTER" formaction="No">
+            <input type="reset" value="CLEAR" id="reset" formaction="No">
+             
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+Employee Basic Information
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Basic Information</title>
+<style>
+    input{
+        width:200px;
+    }
+    body{
+        background-color:#F0E68C;
+    }
+    #personal{
+        background-color:#F5F5F5;
+        font-weight:bold;
+        font-style:italic;
+    }
+    #current{
+        background-color:#FFF5EE;
+        font-weight:bold;
+        font-style:italic;
+    }
+    #previous{
+        background-color:#F8F8FF;
+        font-weight:bold;
+        font-style:italic;
+    }
+    h1{
+        Text-align:left;
+        text-decoration: underline;
+        color:#4B0082;
+    }
+    #submit{
+        color: #FFFFFF;
+        background-color: #4B0082;
+    }
+</style>
+</head>
+<body>
+    <h1>Employee Basic Information</h1>	
+    
+    <form>
+    <!--Fill the code here-->
+    <fieldset id="personal">
+        <legend id ="personallegend"> Personal information </legend>
+        <label>Employee Name</label> 
+        <input id ="employeename" type=text placeholder="Enter the employee name" required/><br>
+        <label>Employee Id </label> <input id="employeeid" type ="text" placeholder="Enter the employee id" required/><br>
+        <label>Aadhar Number</label>
+        <input id="aadharnumber" type="text" placeholder="Enter the aadhar number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required><br>
+    <label>Enter Email</label> <input id="email" type="text" placeholder="Enter the email" required ><br>
+    </fieldset>
+    <fieldset id="current">
+    <legend id="currentlegend">Current position</legend>
+    <label>Department</label><input id="department" type="text" required/><br>
+    <label>Designation</label> <input id="designation" type="text" required/><br>
+    <label>Location</label><input id="location" type="text" required/><br>
+     
+    </fieldset>
+    <fieldset id="previous">
+         <legend id="previouslegend">Previous Employement</legend>
+    <label>Employer </label><input id="employer" type="text" required/><br>
+    <label>Employer Designation </label><input id="employerdesignation" type="text" required><br>
+    </fieldset>
+    
+    <input id="submit" type="submit" value="Save & continue">
+    </form>
+</body>
+</html>
+
